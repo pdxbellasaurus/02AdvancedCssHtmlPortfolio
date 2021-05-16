@@ -4,25 +4,28 @@
   --rawrblu: #039be5;
   --bgcolor: #00517c;
   --subtxt: #8bc24a;
+  --yellow: #ffeb38;
   --grycolor: #cfd8dc;
 }
 
 html {
   font-family: 'Roboto', sans-serif;
-  max-width: 1020px;
-  /* background-color: #fff; */
+  max-width: 1120px;
 }
 
 body {
-  background-color: var(--bgcolor);
-  line-height: 1.1;
-  margin: 10px;
-  max-height: 1020px;
-  color: var(--grycolor);
+
+background-color: var(--bgcolor);
+line-height: 1.5;
+margin: 10px;
+max-height: 1020px;
+color: var(--grycolor);
 }
+
 .title {
   color: var(--subtxt);
 }
+
 nav {
   margin: 0;
   padding: 0;
@@ -36,7 +39,6 @@ nav {
 nav a {
   display: block;
   color: white;
-
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -48,27 +50,42 @@ nav a:hover:not(.active) {
 .active {
   background-color: var(--subtxt);
 }
+
+.hero{
+  float: right;
+  margin-top: 50px;
+  color: var(--grycolor);
+  font-style: italic;
+  font-size: 1.5rem;
+  text-decoration: underline overline var(--rawrblu);
+}
+
 .about-me {
   display: flex;
 }
+
 #aboutme {
   font-size: 1.75em;
-  margin-right: 20px;
+  margin-top: unset;
 }
+
 .about {
-  width: 30%;
+  width: 25%;
   height: 40%;
   text-align: right;
+  padding-right: 20px;
   border-right: 8px solid var(--grycolor);
 }
+
 .bellapic {
   border-radius: 5px 20px 5px;
-  border: 8px solid var(--grycolor);
+  border: 6px solid var(--grycolor);
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .bellatalk {
   width: 60%;
   height: 40%;
@@ -76,65 +93,124 @@ nav a:hover:not(.active) {
   font-size: 1.5rem;
 }
 
-#mywork {
-  width: 30%;
-  padding-right: 20px;
-  font-size: 1.75em;
-  text-align: right;
-  border-right: 8px solid var(--grycolor);
-}
-.projects {
-  width: 60%;
-  height: 60%;
-  flex-wrap: wrap;
-}
-
-.projects article {
-  position: relative;
-  border: 5px solid var(--subtxt);
-  margin-left: 20px;
-  margin: 20px 0px 0px 20px;
-}
-
-/* label */
-h2 {
-  position: absolute;
-  top: 33%;
-  left: 5px;
-  /* font-size: 18px; */
-  background-color: var(--rawrgreen);
-  padding: 5px;
-}
-
-article.img {
-  width: 30%;
-  height: auto;
-  opacity: 0.3;
-}
-small {
-  font-weight: lighter;
-}
 .myname {
   font-weight: lighter;
   text-align: center;
 }
 
+/* ICONS */
 .contact {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align: center;
 }
 
 .contact a {
-  padding-left: 1em;
-}
-
-/* ICONS */
-.fab,
-.far {
+  display:inline-block;
   color: var(--rawrblu);
 }
 
-.work,
+.contact a + a {
+  padding-left: .75rem;
+}
+
+#mywork {
+  width: 25%;
+  padding-right: 20px;
+  font-size: 1.75em;
+  text-align: right;
+  border-right: 8px solid var(--grycolor);
+  display: block;
+}
+
 .projects {
+  width: 65%;
+  height: 60%;
+  flex-wrap: wrap;
+  line-height: 1.1;
+}
+
+.projects article {
+  position: relative;
+  border: 5px solid #ffeb38;
+  margin-left: 20px;
+  margin: 20px 0px 0px 20px;
+}
+
+/* LABEL */
+h3 {
+  position: absolute;
+  top: 25%;
+  background-color: var(--bgcolor);
+  padding: 5px;
+}
+/* 
+.projects article + img {
+  width: 30%;
+  height: auto;
+  opacity: 0.3;
+} */
+
+small {
+  font-weight: lighter;
+}
+
+/* PROJECTS */
+.work,
+.projects,
+.bottom,
+.right {
   display: flex;
+}
+
+.top {
+  height: 125px;
+}
+
+.right{
+  height: 230px;
+}
+
+.left {
+  height: 200px;
+}
+
+@media only screen and (min-width: 400px) {
+  .projects {
+
+background-size: cover;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .projects {
+    /* width: 100%; */
+    background-size: cover;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .projects {
+    /* width: 100%; */
+    background-size: cover;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .projects {
+    /* width: 100%; */
+    background-size: cover;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
