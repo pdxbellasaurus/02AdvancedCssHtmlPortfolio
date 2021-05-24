@@ -3,9 +3,8 @@
 ## Table of Contents
 * [Overview](#Overview)
 * [Concept](#Concept)
-* [Final Look](#Final)
-* [Responsiveness](#Responsiveness)
-    - [Large Devices (laptops/desktops)](#Large)    
+* [Final Look and Responsiveness](#Final)
+    - [Large Devices (laptops/desktops)](#large-devices-laptopsdesktops)    
     - [Medium Devices (laptops/landscape tablets)](#Medium)
     - [Small Devices (portrait tablets/large phones)](#Small)
     - [Extra Small Devices (small phones)](#Extra)
@@ -17,28 +16,24 @@ A responsive portfolio page for an employer to view a potential employee's deplo
 
 ![profile-concept](https://user-images.githubusercontent.com/74746211/119243338-9186b380-bb1a-11eb-9029-12b0551cb7f3.PNG)
 
-## Final Look
-
-img
-
-## Responsiveness
- Below images show the responsivness of the page.
+## Final Look and Responsiveness
+ Below images show the look and responsivness of the page.
 
 ### Large Devices (laptops/desktops)
 
-img
+<img width="374" alt="Lg" src="https://user-images.githubusercontent.com/74746211/119326189-7dd06f80-bc36-11eb-9bd0-9ffc6a06f661.PNG">
 
 ### Medium Devices (laptops/landscape tablets)
 
-img
+<img width="319" alt="Md" src="https://user-images.githubusercontent.com/74746211/119326237-89bc3180-bc36-11eb-8c08-3c6eae14e701.PNG">
 
 ### Small Devices (portrait tablets/large phones)
 
-img
+<img width="173" alt="sm" src="https://user-images.githubusercontent.com/74746211/119326258-8e80e580-bc36-11eb-933b-fc162a98adc7.PNG">
 
 ### Extra Small Devices (small phones)
 
-img
+<img width="110" alt="xsm" src="https://user-images.githubusercontent.com/74746211/119326268-92146c80-bc36-11eb-8dcd-ac8635748956.PNG">
 
 -------------------------
 
