@@ -3,11 +3,11 @@
 ## Table of Contents
 * [Overview](#Overview)
 * [Concept](#Concept)
-* [Final Look and Responsiveness](#Final)
+* [Final Look and Responsiveness](#final-look-and-responsiveness)
     - [Large Devices (laptops/desktops)](#large-devices-laptopsdesktops)    
-    - [Medium Devices (laptops/landscape tablets)](#Medium)
-    - [Small Devices (portrait tablets/large phones)](#Small)
-    - [Extra Small Devices (small phones)](#Extra)
+    - [Medium Devices (laptops/landscape tablets)](#medium-devices-laptopslandscape-tablets)
+    - [Small Devices (portrait tablets/large phones)](#small-devices-portrait-tabletslarge-phones)
+    - [Extra Small Devices (small phones)](#extra-small-devices-small-phones)
 
 ## Overview
 A responsive portfolio page for an employer to view a potential employee's deployed portfolio of work samples. The portfolio page showcase's a potential employee's skills and talents to employers looking to fill a part-time or full-time position. 
