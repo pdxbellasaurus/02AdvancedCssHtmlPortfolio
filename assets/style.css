@@ -10,10 +10,12 @@
 
 html {
   font-family: 'Roboto', sans-serif;
- }
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 body {
-max-width: 1120px;
 background-color: var(--bgcolor);
 line-height: 1.5;
 margin: 10px;
@@ -49,7 +51,7 @@ nav a:hover:not(.active) {
   background-color: var(--subtxt);
 }
 
-.hero{
+#hero{
   float: right;
   margin-top: 50px;
   color: var(--grycolor);
@@ -58,10 +60,13 @@ nav a:hover:not(.active) {
   text-decoration: underline overline var(--rawrblu);
 }
 
-.about-me {
-  display: flex;
-  flex-wrap: nowrap;
+#hero:hover #clever {
+  display:inline;
 }
+
+#clever {
+  display:none;
+  }
 
 #aboutme {
   font-size: 1.75em;
@@ -69,7 +74,7 @@ nav a:hover:not(.active) {
 }
 
 .about {
-  /* width: 30%; */
+  min-width: 150px;
   text-align: right;
   padding-right: 20px;
   border-right: 8px solid var(--grycolor);
@@ -85,6 +90,7 @@ nav a:hover:not(.active) {
 }
 
 .bellatalk {
+  width: 100%;
   margin-left: 20px;
   font-size: 1.5rem;
 }
@@ -105,12 +111,16 @@ nav a:hover:not(.active) {
   color: var(--rawrblu);
 }
 
+.contact a:hover {
+  color: var(--subtxt);
+}
 .contact a + a {
   padding-left: .75rem;
 }
 
 #mywork {
-  width: 30%;
+  width: 25%;
+  min-width: 150px;
   padding-right: 20px;
   font-size: 1.75em;
   text-align: right;
@@ -119,7 +129,6 @@ nav a:hover:not(.active) {
 }
 
 .projects {
-  flex-wrap: wrap;
   line-height: 1.1;
 }
 
@@ -128,6 +137,11 @@ nav a:hover:not(.active) {
   border: 5px solid #ffeb38;
   margin-left: 20px;
   margin: 20px 0px 0px 20px;
+  height: 150px;
+}
+.projects article:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px var(--yellow);
 }
 
 /* LABEL */
@@ -137,36 +151,47 @@ h3 {
   background-color: var(--bgcolor);
   padding: 5px;
 }
-/* 
-.projects article + img {
-  width: 30%;
-  height: auto;
-  opacity: 0.3;
-} */
 
 small {
   font-weight: lighter;
 }
 
-/* PROJECTS */
-.work,
-.projects,
-.bottom,
-.right {
-  display: flex;
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (min-width: 400px) {
+  .work {
+    display: flex;
+  }
+
 }
 
-.top {
-  height: 125px;
-  width: 100%;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .about {
+    width: 25%;
+  }
+  .about-me {
+    display: flex;
+  }
+  .bottom {
+    display: flex;
+  }
 }
 
-.right{
-  height: 230px;
-  
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (min-width: 768px) {
+  .projects {
+    /* width: 100%; */
+    background-size: cover;
+  }
 }
 
-.left {
-  height: 200px;
-  width: 30%;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .left {
+    width: 30%;
+  }
+  .center {
+    display: flex;
+  }
 }
+
