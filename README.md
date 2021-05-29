@@ -1,5 +1,8 @@
 # Advanced CSS HTML Portfolio
 
+🚀
+### [View deployed page](https://pdxbellasaurus.github.io/02AdvancedCssHtmlPortfolio/)
+
 ## Table of Contents
 * [Overview](#Overview)
 * [Concept](#Concept)
@@ -10,7 +13,7 @@
     - [Extra Small Devices (small phones)](#extra-small-devices-small-phones)
 
 ## Overview
-A responsive portfolio page for an employer to view a potential employee's deployed portfolio of work samples. The portfolio page showcase's a potential employee's skills and talents to employers looking to fill a part-time or full-time position. 
+A responsive portfolio page for an employer to view a potential employee's deployed portfolio of work samples. The portfolio page showcase's a potential employee's skills and talents to employers looking to fill a part-time or full-time position. This project utilizes HTML for markup and CSS3. 
 
 ## Concept
 
