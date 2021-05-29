@@ -1,7 +1,6 @@
 # Advanced CSS HTML Portfolio
 
-🚀
-### [View deployed page](https://pdxbellasaurus.github.io/02AdvancedCssHtmlPortfolio/)
+### 🚀 [View deployed page](https://pdxbellasaurus.github.io/02AdvancedCssHtmlPortfolio/)
 
 ## Table of Contents
 * [Overview](#Overview)
